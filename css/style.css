@@ -1,4 +1,8 @@
 /* GENERAL */
 body{
     font-family: "Red Hat Mono", monospace;
+    width: 100%;
+    height: 100wv;
+    background-color: mediumslateblue;
 }
+
