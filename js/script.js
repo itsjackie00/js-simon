@@ -12,3 +12,11 @@ numeri da indovinare sono stati individuati.
 
 */
 
+
+// variabile per il bottone e la creazione della funzione
+const buttonGenerate = document.getElementById('generate');
+
+buttonGenerate.addEventListener('click',generateNumb);
+
+function generateNumb() {
+}
