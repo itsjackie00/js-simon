@@ -19,4 +19,13 @@ const buttonGenerate = document.getElementById('generate');
 buttonGenerate.addEventListener('click',generateNumb);
 
 function generateNumb() {
+    let array = [];
+    for (let i = 0; i < 5; i++) {
+        let numbRandom = generateUniqueRandomNumber(1,100,array);
+        console.log(numbRandom);
+        array.push(numbRandom);
+        
+        
+    }
+    console.log(array);
 }
